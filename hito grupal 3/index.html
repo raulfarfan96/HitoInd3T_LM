@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HITO GRUPAL 3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styleletra.css">
+    <link rel="stylesheet" href="css/styleletrahead.css">
+    <scrip src="https://kit.fontawesome.com/8c267592f7.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <canvas id="canvas"></canvas>
+        <script src="js/fondo.js"></script>
+    </div>
+
+    
+    <div class="menunav">
+            <div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a class="neonText1" href="index.html">HOME</a></li>
+                        <li><a class="neonText1" href="xml.html">ENCUESTA</a></li>
+                        <li><a class="neonText1" href="json.html">DATOS ENCUESTA</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+    </div>
+    <div class="divmenu">
+        <nav>
+            <ul id="menu">
+                <li><a href="index2.html">INICIAR SESIÓN</a></li>
+                <li><a href="index1.html">REGISTRARSE</a></li>
+            </ul>
+        
+            <div class="menu_select">
+                <div id="selectme">CATEGORIAS</div>
+                <span id="arrow" class="down"></span>
+            </div>
+        </nav>
+        <style>
+            #menu {
+    float:left;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    background-color:#000000;
+}
+
+#menu li {
+    float:left;
+    list-style:none;
+}
+#menu li a {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100%;
+    float:left;
+}
+
+#menu li a:hover {
+    background-color: #EEEEEE;
+    color: #000000;
+}
+
+.menu_select {
+    width:97%;
+    float:left;
+    display:none;
+    position:relative;
+}
+
+#selectme {
+    width:80%;
+    background-color:#000000;
+    color:#ffffff;
+    padding:10px;
+    font-weight: bold;
+    text-align:left;
+    cursor:pointer;
+    float:left;
+}
+
+ul#options {
+    width:100%;
+    float:left;
+    margin:0px;
+    padding:0px;
+    display:none;
+}
+
+ul#options li {
+    width:98%;
+    float:left;
+
+}
+
+ul#options li a {
+    color: #ffffff;
+    padding:10px;
+    font-weight: bold;
+    text-align:left;
+    text-decoration:none;
+    cursor:pointer;
+    margin-bottom:1px;
+    width:100%;
+    float:left;
+}
+
+ul#options li a:hover {
+    color:#000000;
+    background-color:#EEEEEE;
+    text-decoration: none;
+}
+
+ul#options li:hover {
+
+}
+
+#arrow {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 980px) {
+nav ul { display: none; }
+nav select { display: inline-block; width:100%; background-color: #000; color:#FFF; font-size: 16px; font-weight: bold; }
+nav .menu_select { display: inline-block; width:100%; background-color: #000; color:#FFF; font-size: 16px; font-weight: bold; }
+}
+@media only screen and (min-width: 40.0625em) {
+.menu_select{
+display: none;
+}
+
+}
+
+@media only screen and (max-width: 40em) { aquí determinas como quieres tu menú aqui le das el estilo etc…
+
+.menu_select{
+display: block;
+}
+}
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#selectme').on('click', function() {
+        if ($('ul#options').is(':hidden')) {
+           $('ul#options').show();
+           $('#arrow').removeClass('down');
+           $('#arrow').addClass('up');
+        }
+        else {
+            $('ul#options').hide();
+            $('#arrow').removeClass('up');
+            $('#arrow').addClass('down');
+        }       
+    });
+    
+    $('#arrow').on('click', function() {
+        if ($(this).hasClass('down')) {
+           $('ul#options').show();
+           $(this).removeClass('down');
+           $(this).addClass('up');
+        }
+        else {
+            $('ul#options').hide();
+            $(this).removeClass('up');
+            $(this).addClass('down');
+        }       
+    });
+
+    $('#options li a').on('click', function() {
+        var value = $(this).text();
+        $('#selectme').text(value);
+        $('ul#options').hide();
+    });
+});
+</script>
+    </div>
+<div class="container">
+<div class="grid">
+<div class="row" size="12">
+<!------------------------------------------------------------------  -->
+<div class="contenido1 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1"></div>
+    <h1 class="neonText">INTRODUCCIÓN</h1>
+<!------------------------------------------------------------------  -->
+<div class="contenido1 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1"></div>
+    <h3 class="neonText">¿PORQUE HICIMOS ESTA ENCUESTA?</h3>
+<h6>Como creadores de este cuestionario, nuestro objetivo era obtener información sobre varios aspectos
+    de la vida de los estudiantes, como sus hábitos de estudio, su tiempo libre y sus intereses personales.
+    Además, queríamos conocer detalles específicos sobre su programa de estudios, su nivel de
+    productividad y su relación con la tecnología.</h6>
+    <div>
+
+    </div>
+    <h6> En general, la información recopilada a través de este cuestionario nos ayudará a comprender mejor las
+    necesidades y deseos de los estudiantes, y a proporcionarles una experiencia educativa más
+    satisfactoria. También nos permitirá identificar áreas en las que los estudiantes pueden necesitar más
+    apoyo o recursos, y trabajar para mejorar esos aspectos de su experiencia universitaria.</h6>
+    <div>
+
+    </div>
+    <h6>En resumen, este cuestionario es una herramienta valiosa para obtener información detallada sobre los
+    estudiantes universitarios y sus necesidades, y nos permitirá trabajar para mejorar su experiencia
+    educativa y su bienestar en general.</h6>
+<img src="images/encuesta.jpeg" alt="" height="515px">
+<!------------------------------------------------------------------  -->
+<div class="contenido1 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1"></div>
+</div>
+</div>
+</div>
+<footer class="piedepagina">
+    <div class="lista">
+        <li>HITO GRUPAL 3 DE LENGUAJE DE MARCAS</li> <br>
+        <li><strong>Autores:</strong></li>
+        <li> Héctor Villar</li>
+        <li>Sergio Alvarez Sobrino</li>
+        <li>Raúl Gómez Farfán</li>
+        <style>
+.piedepagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.658);
+    list-style-type: none;
+}
+
+.piedepagina .lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+
+.piedepagina li{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+        </style>
+    </div>
+</footer>
+</body>
+</html>

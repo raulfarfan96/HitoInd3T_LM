@@ -1,0 +1,53 @@
+body {  
+  margin: 0;
+  padding: 0;
+  color: transparent;
+  background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+  animation: color 3s linear infinite; 
+  background-size: 500%;  
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+} 
+.container {
+  padding: 80px 0;
+  text-align: center;
+  text-transform:capitalize;
+  background-color: white;
+  border-radius: 4rem;
+  margin-top: 6rem;
+}
+@keyframes color {
+  from { 
+    background-position: 0% 50%;
+  }
+  to { 
+    background-position: 100% 50%; 
+  }
+}
+.formulario{
+display: inline-block;
+width: 15%;
+}
+.boton{
+width: 11.8rem;
+height: 2rem;
+color: black;
+background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+animation: color 3s linear infinite; 
+background-size: 500%;  
+-webkit-transform: translate3d(0,0,0);
+-webkit-backface-visibility: hidden;
+border-style: none;
+}
+.enlace{
+text-decoration: none;
+color: black;
+}
+.iniciar{
+text-decoration: none;
+display: block;
+}
+.parrafo1{
+color: black;
+}
+

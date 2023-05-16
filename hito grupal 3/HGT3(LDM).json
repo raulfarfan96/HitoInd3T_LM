@@ -1,0 +1,76 @@
+{
+"alumnos":[
+        {
+            "id":"0001","Nombre":"Pedro","Sexo":"Hombre","Campus":"Leganes","Grado":"Laboratorio","Productividad_clase_hoy":"3","Te_gusta_lo_que_estudias":"Si","Actividad":"Salir de fiesta","Deporte":"Futbol","Tiempo_movil":"De 3 a 5 horas","Menos_tiempo_movil":"Si","Horas_sueño":"De 6 a 8 horas","Serie":"Tom y Jerry","Pelicula":"Kung fu panda"
+        },
+        {
+            "id":"0002","Nombre":"Raúl","Sexo":"Hombre","Campus":"Humanes","Grado":"Asir","Productividad_clase_hoy":"3","Te_gusta_lo_que_estudias":"Si","Actividad":"Jugar videojuegos","Deporte":"Futbol","Tiempo_movil":"De 3 a 5 horas","Menos_tiempo_movil":"Si","Horas_sueño":"De 6 a 8 horas","Serie":"Breaking Bad","Pelicula":"Terminator el día del juicio final"
+        },
+        {
+            "id":"0003","Nombre":"Francisco","Sexo":"Prefiero no decirlo","Campus":"Getafe","Grado":"DAM","Productividad_clase_hoy":"2","Te_gusta_lo_que_estudias":"Tal vez","Actividad":"Jugar videojuegos","Deporte":"Baloncesto","Tiempo_movil":"De 5 a 7 horas","Menos_tiempo_movil":"Si","Horas_sueño":"De 4 a 6 horas","Serie":"Dragon Ball","Pelicula":"Inception"
+        },
+        {
+            "id":"0004","Nombre":"Pedro","Sexo":"Hombre","Campus":"Humanes","Grado":"Asir","Productividad_clase_hoy":"3","Te_gusta_lo_que_estudias":"Tal ves","Actividad":"Ver una pelicula\/serie","Deporte":"Ninguno","Tiempo_movil":"De 5 a 7 horas","Menos_tiempo_movil":"No","Horas_sueño":"De 6 a 8 horas","Serie":"My hero academia","Pelicula":"Gladiator"
+        },
+        {
+            "id":"0005","Nombre":"Adrian","Sexo":"Hombre","Campus":"Humanes","Grado":"Asir","Productividad_clase_hoy":"1","Te_gusta_lo_que_estudias":"Si","Actividad":"Salir de fiesta","Deporte":"Ninguno","Tiempo_movil":"De 3 a 5 horas","Menos_tiempo_movil":"No","Horas_sueño":"De 6 a 8 horas","Serie":"La casa de papel","Pelicula":"Sexo en new york"
+        },
+        {
+            "id":"0006","Nombre":"Jorge","Sexo":"Hombre","Campus":"Getafe","Grado":"DAM","Productividad_clase_hoy":"4","Te_gusta_lo_que_estudias":"Si","Actividad":"Salir de fiesta","Deporte":"Tenis","Tiempo_movil":"7 o mas horas","Menos_tiempo_movil":"Si","Horas_sueño":"De 4 a 6 horas","Serie":"Deadth note","Pelicula":"Avatar"
+        },
+        {
+            "id":"0007","Nombre":"Maria","Sexo":"Mujer","Campus":"Alcala","Grado":"Laboratorio","Productividad_clase_hoy":"4","Te_gusta_lo_que_estudias":"Si","Actividad":"Salir de fiesta","Deporte":"Formula 1","Tiempo_movil":"De 5 a 7 horas","Menos_tiempo_movil":"Tal vez","Horas_sueño":"De 6 a 8 horas","Serie":"Cronicas vampiricas","Pelicula":"Coco"
+        },
+        {
+            "id":"0008","Nombre":"Veronica","Sexo":"Mujer","Campus":"Atocha","Grado":"Imagen y sonido","Productividad_clase_hoy":"4","Te_gusta_lo_que_estudias":"Si","Actividad":"Leer","Deporte":"MotoGP","Tiempo_movil":"De 5 a 7 horas","Menos_tiempo_movil":"Si","Horas_sueño":"8 a mas horas","Serie":"Anatomia de grey","Pelicula":"Toy Story"
+        },
+        {
+            "id":"0009","Nombre":"Saul","Sexo":"Hombre","Campus":"Humanes","Grado":"Asir","Productividad_clase_hoy":"4","Te_gusta_lo_que_estudias":"Si","Actividad":"Jugar videojuegos","Deporte":"Rugby","Tiempo_movil":"De 3 a 5 horas","Menos_tiempo_movil":"No","Horas_sueño":"De 4 a 6 horas","Serie":"Better call Saul","Pelicula":"Seven"
+        },
+        {
+            "id":"0010","Nombre":"Daniel","Sexo":"Hombre","Campus":"Leganes","Grado":"DAM","Productividad_clase_hoy":"4","Te_gusta_lo_que_estudias":"Si","Actividad":"Jugar videojuegos","Deporte":"Ajedrez","Tiempo_movil":"De 5 a 7 horas","Menos_tiempo_movil":"No","Horas_sueño":"De 6 a 8 horas","Serie":"Stranger things","Pelicula":"E.T."
+        },
+        {
+            "id":"0011","Nombre":"Marina","Sexo":"Mujer","Campus":"Alcala","Grado":"Moda","Productividad_clase_hoy":"5","Te_gusta_lo_que_estudias":"Si","Actividad":"Salir de fiesta","Deporte":"Boxeo","Tiempo_movil":"7 o mas horas","Menos_tiempo_movil":"Si","Horas_sueño":"De 8 a mas","Serie":"Hotel dulce hotel","Pelicula":"El diablo viste de prada"
+        },
+        {
+            "id":"0012","Nombre":"Lucia","Sexo":"Mujer","Campus":"Vista Alegre","Grado":"TES","Productividad_clase_hoy":"4","Te_gusta_lo_que_estudias":"Si","Actividad":"Leer","Deporte":"Padel","Tiempo_movil":"De 3 a 5 horas","Menos_tiempo_movil":"No","Horas_sueño":"De 8 a mas","Serie":"Ataque de los titanes","Pelicula":"Del reves"
+        },
+        {
+            "id":"0013","Nombre":"Juan","Sexo":"Hombre","Campus":"Humanes","Grado":"DAW","Productividad_clase_hoy":"5","Te_gusta_lo_que_estudias":"Si","Actividad":"Ver una pelicula\/serie","Deporte":"Futbol americano","Tiempo_movil":"De 5 a 7 horas","Menos_tiempo_movil":"Tal vez","Horas_sueño":"De 6 a 8 horas","Serie":"Mr robot","Pelicula":"Robocop"
+        },
+        {
+            "id":"0014","Nombre":"Laura","Sexo":"Mujer","Campus":"Getafe","Grado":"TES","Productividad_clase_hoy":"3","Te_gusta_lo_que_estudias":"Tal vez","Actividad":"Ver una pelicula\/serie","Deporte":"Ninguno","Tiempo_movil":"De 5 a 7 horas","Menos_tiempo_movil":"Si","Horas_sueño":"De 6 a 8 horas","Serie":"Big Mouth","Pelicula":"Un puente hacia terabithia"
+        },
+        {
+            "id":"0015","Nombre":"Sergio","Sexo":"Hombre","Campus":"Humanes","Grado":"Asir","Productividad_clase_hoy":"4","Te_gusta_lo_que_estudias":"Si","Actividad":"Salir de fiesta","Deporte":"Futbol","Tiempo_movil":"De 3 a 5 horas","Menos_tiempo_movil":"Si","Horas_sueño":"De 6 a 8 horas","Serie":"Los Soprano","Pelicula":"Rocky IV"
+        },
+        {
+            "id":"0016","Nombre":"Paula","Sexo":"Mujer","Campus":"Atocha","Grado":"Moda","Productividad_clase_hoy":"1","Te_gusta_lo_que_estudias":"Si","Actividad":"Leer","Deporte":"Patinaje","Tiempo_movil":"De 3 a 5 horas","Menos_tiempo_movil":"Tal vez","Horas_sueño":"De 8 a mas","Serie":"Friends","Pelicula":"Crepusculo"
+        },
+        {
+            "id":"0017","Nombre":"Aitor","Sexo":"Prefiero no decirlo","Campus":"Vista Alegre","Grado":"Moda","Productividad_clase_hoy":"5","Te_gusta_lo_que_estudias":"Si","Actividad":"Dormir","Deporte":"Ninguno","Tiempo_movil":"7 o mas horas","Menos_tiempo_movil":"No","Horas_sueño":"De 8 a mas","Serie":"Como conocí a vuestra madre","Pelicula":"Titanic"
+        },
+        {
+            "id":"0018","Nombre":"Marina","Sexo":"Mujer","Campus":"Alcala","Grado":"Laboratorio","Productividad_clase_hoy":"2","Te_gusta_lo_que_estudias":"No","Actividad":"Ver una película\/serie","Deporte":"Ninguno","Tiempo_movil":"De 5 a 7 horas","Menos_tiempo_movil":"Si","Horas_sueño":"De 6 a 8 horas","Serie":"Pretty Little Liars","Pelicula":"Pretty Woman"
+        },
+        {
+            "id":"0019","Nombre":"Mario","Sexo":"Hombre","Campus":"Leganes","Grado":"Imagen y sonido","Productividad_clase_hoy":"2","Te_gusta_lo_que_estudias":"No","Actividad":"Ver una película\/serie","Deporte":"Voleibol","Tiempo_movil":"De 3 a 5 horas","Menos_tiempo_movil":"No","Horas_sueño":"De 6 a 8 horas","Serie":"Peaky Blinders","Pelicula":"Scarface"
+        },
+        {
+            "id":"0020","Nombre":"Marcos","Sexo":"Hombre","Campus":"Getafe","Grado":"TES","Productividad_clase_hoy":"4","Te_gusta_lo_que_estudias":"No","Actividad":"Leer","Deporte":"MMA","Tiempo_movil":"De 3 a 5 horas","Menos_tiempo_movil":"Si","Horas_sueño":"De 6 a 8 horas","Serie":"Sons of Anarchy","Pelicula":"Rocky"
+        },
+        {
+            "id":"0021","Nombre":"Beatriz","Sexo":"Mujer","Campus":"Humanes","Grado":"DAM","Productividad_clase_hoy":"3","Te_gusta_lo_que_estudias":"Tal vez","Actividad":"Ver una película\/serie","Deporte":"Tenis","Tiempo_movil":"Menos de 2 horas","Menos_tiempo_movil":"Tal vez","Horas_sueño":"De 6 a 8 horas","Serie":"Love","Pelicula":"Jumanji (1995)"
+        },
+        {
+            "id":"0022","Nombre":"Diego","Sexo":"Hombre","Campus":"Getafe","Grado":"DAM","Productividad_clase_hoy":"3","Te_gusta_lo_que_estudias":"Si","Actividad":"Jugar videojuegos","Deporte":"Baloncesto","Tiempo_movil":"De 5 a 7 horas","Menos_tiempo_movil":"Si","Horas_sueño":"De 6 a 8 horas","Serie":"El barco","Pelicula":"Objetivo La Casa Blanca"
+        },
+        {
+            "id":"0023","Nombre":"Chedey","Sexo":"Hombre","Campus":"Getafe","Grado":"DAM","Productividad_clase_hoy":"5","Te_gusta_lo_que_estudias":"Si","Actividad":"Salir de fiesta","Deporte":"Futbol","Tiempo_movil":"De 3 a 5 horas","Menos_tiempo_movil":"Si","Horas_sueño":"De 4 a 6 horas","Serie":"Peaky blinders","Pelicula":"Ninguna"
+        },
+        {
+            "id":"0024","Nombre":"David","Sexo":"Hombre","Campus":"Humanes","Grado":"DAM","Productividad_clase_hoy":"3","Te_gusta_lo_que_estudias":"Si","Actividad":"Ver una película\/serie","Deporte":"Boxeo","Tiempo_movil":"Menos de 3 horas","Menos_tiempo_movil":"Si","Horas_sueño":"De 4 a 6 horas","Serie":"ANHQV","Pelicula":"Django"
+        }
+]
+}
