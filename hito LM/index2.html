@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styletabla.css">
+    <title>Memes</title>
+</head>
+<body>
+    <h1>Comunidades y provincias</h1>
+    <section id="mi-tabla"></section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+        function crearTabla(tiempo) {
+            // Siguiendo este ejemplo puedes crear la tabla completa
+                let html = "<table class='tabla'><thead><tr><th>CODPROV</th><th>Ciudad</th><th>Comunidad autonoma</th></tr></thead><tbody>";
+                tiempo.forEach((tiempo) => {
+                    html += `<tr><td>${tiempo.CODPROV}</td><td>${tiempo.NOMBRE_PROVINCIA}</td><td>${tiempo.COMUNIDAD_CIUDAD_AUTONOMA}</td></tr>`;
+                });
+                html += "</tbody></table>";
+                return html;
+        }
+
+        fetch('https://www.el-tiempo.net/api/json/v1/provincias')
+        .then(res => res.json())
+        .then(data => {
+            const tiempo = data;
+            const tablaHtml = crearTabla(tiempo);
+            document.getElementById("mi-tabla").innerHTML = tablaHtml;
+        })
+        .catch(err => console.error(err));
+
+    </script>
+</body>
+</html>
