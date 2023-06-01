@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es-es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="Evidencia3T.json"></script>
+  <title>TablaDatosJson</title>
+</head>
+
+<body>
+      <div id="datosPersona">
+
+<table align="center" class="table-bordered" id="Table"></table>
+</div>
+
+<script>
+
+var json = data;
+
+function cargarDatos(){
+    var DatosJson = JSON.parse(JSON.stringify(json));
+    console.log(DatosJson.datos.length);
+          
+    $("#Table").append(
+	'<tr class="table-bordered" align="center">'+
+		'<td>Id</td>'+
+		'<td colspan="2">Name</td>' + 
+		'<td colspan="3">Directionn</td>'+
+		'<td colspan="3">Grades</td>'+
+		'<td colspan="3">Hobbies</td>'+
+		'<td colspan="2">Dates</td>'+
+		'<td >GPA</td>'+
+		'<td >Major</td>'+
+		'<td >Advisor</td>'+
+		'<td >Email</td>'+
+		'<td >Phone</td>'+
+	'</tr>'+ 
+	'<tr class="table-bordered" align="center">'+
+		'<td></td>'+
+		'<td >Nombre</td>' + 
+		'<td >Apellido</td>' + 
+		'<td >City</td>' + 
+		'<td >Street</td>' + 
+		'<td >Nmuber</td>' + 
+		'<td >Grade 1</td>' + 
+		'<td >Grade 2</td>' + 
+		'<td >Grade 3</td>' + 
+		'<td ></td>' + 
+		'<td >Music</td>' + 
+		'<td >Sports</td>' + 
+		'<td >Enrollment Date</td>' + 
+		'<td >Graduation Date</td>' + 
+		'<td ></td>' + 
+		'<td ></td>' + 
+		'<td ></td>' + 
+		'<td ></td>' + 
+		'<td ></td>');
+    for (i = 50; i < 100; i++){
+ 
+ $("#Table").append('<tr class="table-bordered" align="center">' + 
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].id + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].name.fisrtName + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].name.lastName + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].direction.City + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].direction.Street + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].direction.Number + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].grades.grade_1 + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].grades.grade_2 + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].grades.grade_3 + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].hobbies["0"] + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].hobbies["1"].Music + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].hobbies["2"].Sports + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].dates.enrollment_date + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].dates.graduation_date + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].gpa + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].major + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].advisor + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].email + '</td>'+
+ 	'<td style="dislay: none;">' + DatosJson.datos[i].phone + '</td>'+
+	'</tr>');
+    }
+}
+
+</script>
+<button type="button" align="center" onclick="cargarDatos()">
+Visualizar
+</button>
+</body>
+</html>
